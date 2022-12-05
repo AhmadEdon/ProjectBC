@@ -2,7 +2,7 @@
 <ul class="navbar-nav bg-gradient-dark sidebar sidebar-dark accordion" id="accordionSidebar">
 
   <!-- Sidebar - Brand -->
-  <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+  <a class="sidebar-brand d-flex align-items-center justify-content-center" href="<?= base_url() ?>">
     <div class="sidebar-brand-icon">
       <img src="assets/img/login/bc-bgr.png" width="60" height="60" alt="">
     </div>
@@ -26,11 +26,11 @@
   </li>
 
   <!-- Nav Item - Ceisa -->
-  <li class="nav-item">
+  <!-- <li class="nav-item">
     <a class="nav-link" href="<?= base_url('ceisa'); ?>">
       <i class="fas fa-fw fa-folder"></i>
       <span>Ceisa</span></a>
-  </li>
+  </li> -->
 
   <!-- Nav Item - It Inventory -->
   <li class="nav-item">

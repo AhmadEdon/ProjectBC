@@ -12,7 +12,7 @@
     <title>
         <?= $title; ?>
     </title>
-    <link rel="icon" type="image/x-icon" href="assets/img/login/bc-bgr.png">
+    <link rel="icon" type="image/x-icon" href="<?= base_url('assets/'); ?>/img/login/bc-bgr.png">
 
     <!-- Custom fonts for this template-->
     <link href="<?= base_url('assets/'); ?>vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
